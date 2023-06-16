@@ -38,9 +38,13 @@ a {
   display: flex;
   justify-content: center;
 }
+#main,
+#education {
+  background-color: #eee3cb;
+}
 #main > .container div:nth-child(1) {
   width: 70%;
-  border-right: 1px dashed #9ac5f4;
+  border-right: 1px dashed #4942e4;
 }
 #main > .container div:nth-child(2) {
   width: 30%;
@@ -65,9 +69,9 @@ ul.skill > li {
   margin-top: 10px;
 }
 ul.skill > li:nth-child(2n + 0) {
-  border: 1px solid #9ac5f4;
+  border: 1px solid #4942e4;
   border-radius: 40%;
-  background-color: #9ac5f4;
+  background-color: #4942e4;
   color: whitesmoke;
 }
 ul.skill > li:nth-child(3n + 0) {
@@ -104,7 +108,8 @@ ul.interest > li {
 }
 
 /* working-experience */
-#working-experience {
+#working-experience,
+#courses {
   background-color: #ffeebb;
 }
 #working-experience > div.container {
@@ -141,9 +146,6 @@ ul.interest > li {
 }
 
 /* courses */
-#courses {
-  background-color: #a7ecee;
-}
 #courses > div.container {
   display: block;
   min-height: fit-content;
@@ -162,12 +164,13 @@ ul.interest > li {
 footer {
   display: flex;
   justify-content: center;
-  background-color: #9ac5f4;
+  background-color: #ecf8f9;
   color: whitesmoke;
 }
 footer > div.container {
   min-height: fit-content;
   justify-content: flex-start;
+  padding: 2px;
 }
 footer > div.container ul {
   display: flex;
