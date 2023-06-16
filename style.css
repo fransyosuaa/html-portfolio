@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+body > hr {
+  width: 80%;
+}
+h1 {
+  font-size: 2.5rem;
+}
+.container {
+  width: 80%;
+  display: flex;
+  min-height: 20rem;
+  padding: 1rem;
+  justify-content: center;
+}
+.mt-3 {
+  margin-top: 3px;
+}
+img {
+  height: 200px;
+  border-radius: 10%;
+  float: left;
+  margin-right: 20px;
+}
+a {
+  color: blue;
+  text-decoration: none;
+}
+#main,
+#main-contact,
+#working-experience,
+#education,
+#courses {
+  display: flex;
+  justify-content: center;
+}
+#main > .container div:nth-child(1) {
+  width: 70%;
+  border-right: 1px dashed #9ac5f4;
+}
+#main > .container div:nth-child(2) {
+  width: 30%;
+}
+.container div {
+  padding: 20px;
+}
+/* skill */
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+ul.skill > li {
+  padding: 5px;
+  border: 1px solid #ffeebb;
+  border-radius: 40%;
+  background-color: #ffeebb;
+  color: black;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+ul.skill > li:nth-child(2n + 0) {
+  border: 1px solid #9ac5f4;
+  border-radius: 40%;
+  background-color: #9ac5f4;
+  color: whitesmoke;
+}
+ul.skill > li:nth-child(3n + 0) {
+  border: 1px solid #a7ecee;
+  border-radius: 40%;
+  background-color: #a7ecee;
+  color: black;
+}
+/* language */
+ul.language {
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.language > li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2px;
+}
+.language div {
+  padding: 0;
+}
+.language img {
+  height: 20px;
+  margin: 0;
+}
+/* interest */
+ul.interest > li {
+  padding: 5px;
+  border: 1px solid #27374d;
+  border-radius: 10px;
+  color: #27374d;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+/* working-experience */
+#working-experience {
+  background-color: #ffeebb;
+}
+#working-experience > div.container {
+  display: block;
+}
+#working-experience > .container img {
+  height: 25px;
+  float: left;
+  margin-right: 10px;
+}
+#working-experience p {
+  margin-left: 20px;
+}
+#working-experience ul > li > div {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+#working-experience img[alt='online-pajak'],
+#working-experience img[alt='just-commodity'],
+#working-experience img[alt='tokopedia'] {
+  height: 30px;
+}
+
+/* education */
+#education > div.container {
+  display: block;
+  min-height: fit-content;
+}
+#education > .container img {
+  height: 25px;
+  float: left;
+  margin-right: 10px;
+}
+
+/* courses */
+#courses {
+  background-color: #a7ecee;
+}
+#courses > div.container {
+  display: block;
+  min-height: fit-content;
+}
+#courses > .container img {
+  height: 25px;
+  float: left;
+  margin-right: 10px;
+}
+#courses ul {
+  display: flex;
+  flex-direction: column;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #9ac5f4;
+  color: whitesmoke;
+}
+footer > div.container {
+  min-height: fit-content;
+  justify-content: flex-start;
+}
+footer > div.container ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+footer > div.container ul li {
+  margin-right: 10px;
+}
+footer > div.container ul li img {
+  height: 20px;
+  margin-right: 3px;
+}
