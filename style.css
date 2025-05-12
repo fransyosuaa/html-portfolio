@@ -124,9 +124,9 @@ ul.interest > li {
   align-items: center;
   padding: 0;
 }
-#working-experience img[alt='online-pajak'],
-#working-experience img[alt='just-commodity'],
-#working-experience img[alt='tokopedia'] {
+#working-experience img[alt='online-pajak logo'],
+#working-experience img[alt='JustCommodity logo'],
+#working-experience img[alt='Tokopedia logo'] {
   height: 30px;
 }
 
